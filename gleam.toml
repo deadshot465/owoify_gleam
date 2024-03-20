@@ -1,0 +1,16 @@
+name = "owoify_gleam"
+version = "1.0.0"
+
+description = "Turning your worst nightmare into a Gleam package on Hex."
+licences = ["MIT"]
+repository = { type = "github", user = "deadshot465", repo = "owoify_gleam" }
+links = [{ title = "Website", href = "https://github.com/deadshot465/owoify_gleam" }]
+
+[dependencies]
+gleam_stdlib = "~> 0.34 or ~> 1.0"
+gleam_erlang = "~> 0.24"
+owoify_erl = "~> 1.1"
+
+[dev-dependencies]
+gleeunit = "~> 1.0"
+simplifile = "~> 1.5"
